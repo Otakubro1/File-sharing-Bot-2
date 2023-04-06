@@ -24,6 +24,12 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
+#ADMIN ID 1
+CADMIN1 = int(os.environ.get("CADMIN1", ""))
+
+#ADMIN ID 2
+CADMIN2 = int(os.environ.get("CADMIN2", ""))
+
 #Port
 PORT = os.environ.get("PORT", "8080")
 
