@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b> ○ Creator : <a href='tg://user?id={1787248836}'>This Person</a>\n ○ Language : <code>Python3 & Pyrogram</code>\n ○ Source Code : <a href='https://r.mtdv.me/github-direct-telebot-file'>Click here</a>\n ○ Anime Channel : @Otaku_Library\n ○ Chat Group : @Otaku_Chats\n ○ ADMIN1 : @Psycho_Gecko\n ○ ADMIN2 : @Ktgp_3453\n ○ ADMIN3 : @Otaku_Helper</b>" ,
+            text = f"<b> ○ 🎃 Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n ○ 🤗 Developed by  : <code>@Ktgp_3453</code>\n ○ 😶‍🌫️ Source Code : <a href='https://r.mtdv.me/github-direct-telebot-file'>Click here</a>\n ○ ❤️ Anime Channel : @AnimeXabyss\n ○ 😎 Ongoing Channel : @Ongoing_Anime_Abyss\n ○ 😊 Admin 1 : @Real_Call_Me_Blank\n ○ 🤗 Admin 2 : @Ktgp_3453</b>" ,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❌ Close", callback_data = "close")
+                        InlineKeyboardButton("❌ Close ❌", callback_data = "close")
                     ]
                 ]
             )
