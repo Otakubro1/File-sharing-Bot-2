@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b> ○ 🎃 Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n ○ 🤗 Developed by  : <code>@Ktgp_3453</code>\n ○ 😶‍🌫️ Source Code : <a href='https://r.mtdv.me/github-direct-telebot-file'>Click here</a>\n ○ ❤️ Anime Channel : @AnimeXabyss\n ○ 😎 Ongoing Channel : @Ongoing_Anime_Abyss\n ○ 😊 Admin 1 : @Real_Call_Me_Blank\n ○ 🤗 Admin 2 : @Ktgp_3453</b>" ,
+            text = f"<b>○🎃 Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ 🤗 Developed by  : @Ktgp_3453\n○ 😶‍🌫️ Source Code : <a href='https://r.mtdv.me/github-direct-telebot-file'>Click here</a>\n○ ❤️ Anime Channel : @AnimeXabyss\n○😎 Ongoing Channel : <a href='https://t.me/Ongoing_Anime_Abyss'>AnimeXAbyss</a>\n○ 🤗 Admin 1 : @Ktgp_3453</b>" ,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
